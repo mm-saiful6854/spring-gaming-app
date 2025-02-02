@@ -1,5 +1,8 @@
 package com.knowinforms.spring_gaming_app.game;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class MarioGame implements Game {
     public void up(){
         System.out.println("MarioGame.up()");

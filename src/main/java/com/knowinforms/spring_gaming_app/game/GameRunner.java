@@ -1,10 +1,17 @@
 package com.knowinforms.spring_gaming_app.game;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+
+@Component
 public class GameRunner {
-    Game game;
-    public GameRunner(Game game) {
-        this.game = game;
-    }
+    @Autowired
+    @Qualifier("PacmanGame")
+    private Game game;
+//    public GameRunner(Game game) {
+//        this.game = game;
+//    }
 
 
     public void run() {
