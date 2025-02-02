@@ -4,3 +4,8 @@ Spring-gaming-app is a project to explain what is tightly couple, loosing couple
 ### What is tightly couple class?
 ### What is loosing couple class?
 ### How does spring make class loosing couple?
+
+
+
+### Disclaimer
+This repository is created for learning purpose.
